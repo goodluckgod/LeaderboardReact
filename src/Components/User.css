@@ -1,0 +1,23 @@
+.UserInfo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.Avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+}
+
+.Leaderboard tr td.incrased {
+  color: green;
+}
+
+.Leaderboard tr td.decrased {
+  color: red;
+}
